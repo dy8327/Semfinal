@@ -62,6 +62,26 @@
     </url>
 
     <url>
+        <loc>https://semfinal.com/guides/loan-prepayment-monthly-payment-guide.html</loc>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://semfinal.com/guides/deposit-interest-guide.html</loc>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://semfinal.com/guides/savings-interest-guide.html</loc>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://semfinal.com/guides/loan-refinance-cost-guide.html</loc>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
         <loc>https://semfinal.com/about.html</loc>
         <priority>0.5</priority>
     </url>

@@ -638,3 +638,7 @@ function formatKoreanMoney(number) {
 
     return result;
 }
+
+document
+    .getElementById("calculateButton")
+    .addEventListener("click", calculatePrepayment);

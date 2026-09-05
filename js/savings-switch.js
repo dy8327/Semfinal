@@ -201,3 +201,7 @@ function formatKoreanMoney(number) {
 
     return parts.join(" ");
 }
+
+document
+    .getElementById("calculateButton")
+    .addEventListener("click", calculateSavingsSwitch);

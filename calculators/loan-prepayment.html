@@ -23,11 +23,7 @@
             </p>
         </div>
 
-        <img
-            src="../images/loan-prepayment.png"
-            alt="대출 일부상환 계산기"
-            class="calculator-head-image"
-        >
+        <img src="../images/loan-prepayment.png" alt="대출 일부상환 계산기" class="calculator-head-image">
     </section>
 
     <section class="calculator-box">
@@ -37,12 +33,7 @@
             <div class="input-group">
                 <label for="loanAmount">남은 대출원금</label>
                 <div class="input-unit">
-                    <input
-                        type="text"
-                        id="loanAmount"
-                        inputmode="numeric"
-                        placeholder="예: 100,000,000"
-                    >
+                    <input type="text" id="loanAmount" inputmode="numeric" placeholder="예: 100,000,000">
                     <span>원</span>
                     <div class="money-korean" id="loanAmountKorean"></div>
                 </div>
@@ -51,12 +42,7 @@
             <div class="input-group">
                 <label for="interestRate">연 이자율</label>
                 <div class="input-unit">
-                    <input
-                        type="number"
-                        id="interestRate"
-                        step="0.01"
-                        placeholder="예: 4.5"
-                    >
+                    <input type="number" id="interestRate" step="0.01" placeholder="예: 4.5">
                     <span>%</span>
                 </div>
             </div>
@@ -64,11 +50,7 @@
             <div class="input-group">
                 <label for="remainingMonths">남은 대출기간</label>
                 <div class="input-unit">
-                    <input
-                        type="number"
-                        id="remainingMonths"
-                        placeholder="예: 120"
-                    >
+                    <input type="number" id="remainingMonths" placeholder="예: 120">
                     <span>개월</span>
                 </div>
             </div>
@@ -97,12 +79,7 @@
             <div class="input-group">
                 <label for="prepaymentAmount">미리 갚을 금액</label>
                 <div class="input-unit">
-                    <input
-                        type="text"
-                        id="prepaymentAmount"
-                        inputmode="numeric"
-                        placeholder="예: 20,000,000"
-                    >
+                    <input type="text" id="prepaymentAmount" inputmode="numeric" placeholder="예: 20,000,000">
                     <span>원</span>
                     <div class="money-korean" id="prepaymentAmountKorean"></div>
                 </div>
@@ -111,21 +88,12 @@
             <div class="input-group">
                 <label for="feeRate">중도상환수수료율</label>
                 <div class="input-unit">
-                    <input
-                        type="number"
-                        id="feeRate"
-                        step="0.01"
-                        value="0"
-                    >
+                    <input type="number" id="feeRate" step="0.01" value="0">
                     <span>%</span>
                 </div>
             </div>
 
-            <button
-                type="button"
-                class="calculate-button"
-                onclick="calculatePrepayment()"
-            >
+            <button type="button" class="calculate-button" id="calculateButton">
                 계산하기
             </button>
 

@@ -938,9 +938,10 @@ a {
 .guide-note {
     padding: 18px 20px;
     border-radius: 12px;
-    background: #f7f8f7;
-    color: #758078 !important;
+    background: #fff5f5;
+    color: #c0392b !important;
     font-size: 13px !important;
+    font-weight: 600;
     line-height: 1.7 !important;
 }
 

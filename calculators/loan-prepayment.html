@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>대출 일부상환 계산기 | 셈결정</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="header-inner">
+        <a href="../index.html" class="logo">
+            <strong>셈결정</strong>
+            <span>셈의 끝판왕</span>
+        </a>
+
+        <nav class="nav">
+            <a href="../index.html">홈</a>
+            <a href="#">계산기</a>
+        </nav>
+    </div>
+</header>
+
+<main class="calculator-page">
+
+    <section class="calculator-head">
+        <div>
+            <p class="calculator-category">대출 계산기</p>
+            <h1>대출 일부상환 계산기</h1>
+            <p class="calculator-description">
+                대출 원금 일부를 미리 갚았을 때
+                이자와 월 납입금이 얼마나 줄어드는지 계산합니다.
+            </p>
+        </div>
+
+        <img
+            src="../images/loan-prepayment.png"
+            alt="대출 일부상환 계산기"
+            class="calculator-head-image"
+        >
+    </section>
+
+    <section class="calculator-box">
+
+        <div class="calculator-form">
+
+            <div class="input-group">
+                <label for="loanAmount">남은 대출원금</label>
+                <div class="input-unit">
+                    <input
+                        type="text"
+                        id="loanAmount"
+                        inputmode="numeric"
+                        placeholder="예: 100,000,000"
+                    >
+                    <span>원</span>
+                    <div class="money-korean" id="loanAmountKorean"></div>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="interestRate">연 이자율</label>
+                <div class="input-unit">
+                    <input
+                        type="number"
+                        id="interestRate"
+                        step="0.01"
+                        placeholder="예: 4.5"
+                    >
+                    <span>%</span>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="remainingMonths">남은 대출기간</label>
+                <div class="input-unit">
+                    <input
+                        type="number"
+                        id="remainingMonths"
+                        placeholder="예: 120"
+                    >
+                    <span>개월</span>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="repaymentType">상환 방식</label>
+                <select id="repaymentType">
+                    <option value="equal-payment">원리금균등상환</option>
+                    <option value="equal-principal">원금균등상환</option>
+                    <option value="bullet">만기일시상환</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label for="prepaymentOption">일부상환 후 계산 방식</label>
+                <select id="prepaymentOption">
+                    <option value="reduce-payment">
+                        남은 기간 유지 · 월 납입액 줄이기
+                    </option>
+                    <option value="reduce-period">
+                        월 납입액 유지 · 대출기간 줄이기
+                    </option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label for="prepaymentAmount">미리 갚을 금액</label>
+                <div class="input-unit">
+                    <input
+                        type="text"
+                        id="prepaymentAmount"
+                        inputmode="numeric"
+                        placeholder="예: 20,000,000"
+                    >
+                    <span>원</span>
+                    <div class="money-korean" id="prepaymentAmountKorean"></div>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="feeRate">중도상환수수료율</label>
+                <div class="input-unit">
+                    <input
+                        type="number"
+                        id="feeRate"
+                        step="0.01"
+                        value="0"
+                    >
+                    <span>%</span>
+                </div>
+            </div>
+
+            <button
+                type="button"
+                class="calculate-button"
+                onclick="calculatePrepayment()"
+            >
+                계산하기
+            </button>
+
+        </div>
+
+        <div class="calculator-result" id="resultBox">
+
+            <div class="result-empty">
+                값을 입력하고 계산하기를 눌러주세요.
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<script src="../js/loan-prepayment.js"></script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>예금 갈아타기 계산기 | 셈결정</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+    <div class="header-inner">
+
+        <a href="../index.html" class="logo">
+            <strong>셈결정</strong>
+            <span>셈의 끝판왕</span>
+        </a>
+
+        <nav class="nav">
+            <a href="../index.html">홈</a>
+            <a href="#">계산기</a>
+        </nav>
+
+    </div>
+</header>
+
+<main class="calculator-page">
+
+    <section class="calculator-head">
+        <div>
+            <p class="calculator-category">
+                예금 계산기
+            </p>
+            <h1>
+                예금 갈아타기 계산기
+            </h1>
+            <p class="calculator-description">
+                기존 예금을 중도해지하고
+                더 높은 금리 상품으로 갈아타는 것이
+                실제로 유리한지 계산합니다.
+            </p>
+        </div>
+
+        <img src="../images/deposit-switch.png" alt="예금 갈아타기 계산기" class="calculator-head-image">
+
+    </section>
+
+    <section class="calculator-box">
+        <div class="calculator-form">
+            <div class="input-group">
+                <label for="depositAmount">
+                    현재 예치금액
+                </label>
+                <div class="input-unit">
+                    <input type="text" id="depositAmount" inputmode="numeric" placeholder="예: 50,000,000">
+                    <span>원</span>
+                </div>
+
+                <div
+                    class="money-korean"
+                    id="depositAmountKorean">
+                </div>
+
+            </div>
+
+            <div class="input-group">
+                <label for="currentRate">
+                    현재 예금 금리
+                </label>
+                <div class="input-unit">
+                    <input type="number" id="currentRate" step="0.01" placeholder="예: 3.2">
+                    <span>%</span>
+                </div>
+
+            </div>
+
+            <div class="input-group">
+                <label for="totalMonths">현재 예금 약정기간</label>
+                <div class="input-unit">
+                    <input type="number" id="totalMonths" placeholder="가입할 때 정한 예금 전체 기간을 입력하세요. 예: 12">
+                    <span>개월</span>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="elapsedMonths">현재까지 예치한 기간</label>
+                <div class="input-unit">
+                    <input type="number" id="elapsedMonths" placeholder="예: 5">
+                    <span>개월</span>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="earlyTerminationRate">
+                    중도해지 적용 예상 금리
+                </label>
+                <div class="input-unit">
+                    <input type="number" id="earlyTerminationRate" step="0.01" placeholder="예: 1.0">
+                    <span>%</span>
+                </div>
+
+            </div>
+
+
+            <div class="input-group">
+                <label for="newRate">
+                    새 예금 금리
+                </label>
+                <div class="input-unit">
+                    <input type="number" id="newRate" step="0.01" placeholder="예: 4.0">
+                    <span>%</span>
+                </div>
+
+            </div>
+
+            <div class="input-group">
+                <label for="newMonths">
+                    새 예금 가입기간
+                </label>
+                <div class="input-unit">
+                    <input type="number" id="newMonths" placeholder="예: 12">
+                    <span>개월</span>
+                </div>
+
+            </div>
+
+            <button type="button" class="calculate-button" onclick="calculateDepositSwitch()">
+                계산하기
+            </button>
+
+        </div>
+
+        <div class="calculator-result" id="resultBox">
+            <div class="result-empty">
+                값을 입력하고 계산하기를 눌러주세요.
+            </div>
+        </div>
+
+    </section>
+
+</main>
+
+<script src="../js/deposit-switch.js"></script>
+
+</body>
+</html>

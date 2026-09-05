@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>셈결정 | 셈의 끝판왕</title>
+    <meta name="description" content="대출, 예금 등 복잡한 돈 계산을 쉽고 빠르게 비교해보세요. 숫자뿐 아니라 어떤 선택이 유리한지 확인할 수 있습니다.">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+<div id="header"></div>
+
+<main>
+
+    <!-- Hero -->
+   <section class="hero">
+    <div class="hero-inner">
+
+        <div class="hero-content">
+            <h1>
+                셈의 끝판왕, <span>셈결정</span>
+            </h1>
+
+            <p>
+                복잡한 돈 계산, 숫자만 보여드리지 않습니다.<br>
+                어떤 선택이 더 유리한지 비교해보세요.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#calculators" class="primary-btn">
+                    계산기 시작하기
+                </a>
+
+                <a href="#guide" class="secondary-btn">
+                    이용 가이드
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <img src="./images/hero-calculator.png"
+                 alt="셈결정 금융 계산기 일러스트"
+                 class="hero-image">
+        </div>
+
+    </div>
+</section>
+
+    <!-- Calculators -->
+    <section class="section" id="calculators">
+
+        <div class="section-head">
+            <h2>지금 어떤 계산이 필요한가요?</h2>
+            <p>상황에 맞는 계산기를 선택해보세요.</p>
+        </div>
+
+        <div class="calculator-grid">
+
+            <a href="./calculators/loan-prepayment.html"
+               class="calculator-card"
+               id="loan">
+
+                <div class="card-icon">
+                    <img src="./images/loan-prepayment.png" alt="대출 일부상환 계산기">
+                </div>
+
+                <h3>대출 일부상환</h3>
+
+                <p>
+                    목돈을 미리 갚으면<br>
+                    얼마나 절약될까요?
+                </p>
+
+                <span class="card-link">
+                    계산하기 →
+                </span>
+
+            </a>
+
+            <a href="./calculators/loan-break-even.html"
+               class="calculator-card">
+
+                <div class="card-icon">
+                    <img src="./images/loan-break-even.png" alt="중도상환 손익 계산기">
+                </div>
+
+                <h3>중도상환 손익</h3>
+
+                <p>
+                    지금 갚을까,<br>
+                    기다렸다 갚을까?
+                </p>
+
+                <span class="card-link">
+                    계산하기 →
+                </span>
+
+            </a>
+
+
+            <a href="./calculators/deposit-switch.html"
+               class="calculator-card"
+               id="deposit">
+
+                <div class="card-icon">
+                    <img src="./images/deposit-switch.png" alt="예금 갈아타기 계산기">
+                </div>
+
+                <h3>예금 갈아타기</h3>
+
+                <p>
+                    예금을 깨고 옮기는 게<br>
+                    정말 이득일까요?
+                </p>
+
+                <span class="card-link">
+                    계산하기 →
+                </span>
+
+            </a>
+
+        </div>
+    </section>
+
+
+    <!-- How it works -->
+    <section class="process-section">
+
+        <div class="section-head">
+            <h2>셈결정은 이렇게 계산합니다</h2>
+            <p>계산 결과를 실제 판단에 활용하기 쉽게 보여드립니다.</p>
+        </div>
+
+        <div class="process-grid">
+
+            <div class="process-item">
+                <span>01</span>
+                <strong>계산</strong>
+                <p>현재 조건을 입력합니다.</p>
+            </div>
+
+            <div class="process-arrow">→</div>
+
+            <div class="process-item">
+                <span>02</span>
+                <strong>비교</strong>
+                <p>선택 전후를 비교합니다.</p>
+            </div>
+
+            <div class="process-arrow">→</div>
+
+            <div class="process-item">
+                <span>03</span>
+                <strong>손익</strong>
+                <p>비용과 절감액을 계산합니다.</p>
+            </div>
+
+            <div class="process-arrow">→</div>
+
+            <div class="process-item">
+                <span>04</span>
+                <strong>결론</strong>
+                <p>판단하기 쉽게 정리합니다.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Guide -->
+    <section class="section" id="guide">
+
+        <div class="section-head guide-head">
+            <div>
+                <h2>금융 가이드</h2>
+                <p>계산하기 전에 알아두면 좋은 내용을 정리했습니다.</p>
+            </div>
+
+            <a href="./guides/" class="more-link">
+                전체보기 →
+            </a>
+        </div>
+
+        <div class="guide-list">
+
+            <a href="#" class="guide-item">
+                <div>
+                    <span class="guide-category">대출</span>
+                    <h3>대출 일부상환하면 이자는 얼마나 줄어들까?</h3>
+                </div>
+                <span>→</span>
+            </a>
+
+            <a href="#" class="guide-item">
+                <div>
+                    <span class="guide-category">대출</span>
+                    <h3>중도상환수수료를 내고 지금 갚는 게 유리할까?</h3>
+                </div>
+                <span>→</span>
+            </a>
+
+            <a href="#" class="guide-item">
+                <div>
+                    <span class="guide-category">예금</span>
+                    <h3>예금을 중도해지하면 실제로 얼마나 손해일까?</h3>
+                </div>
+                <span>→</span>
+            </a>
+
+        </div>
+    </section>
+
+</main>
+
+<div id="footer"></div>
+
+<script src="/js/common.js"></script>
+
+</body>
+</html>

@@ -183,18 +183,22 @@ a {
 
 .calculator-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 22px;
 }
 
 .calculator-card {
-    min-height: 265px;
-    padding: 32px;
-    border: 1px solid #e3ebe5;
+    min-height: 300px;
+    padding: 28px 28px 24px;
+
+    display: flex;
+    flex-direction: column;
+
+    background: #fff;
+    border: 1px solid #dfe9e3;
     border-radius: 20px;
-    background: #ffffff;
-    box-shadow: 0 8px 30px rgba(42, 74, 54, 0.05);
-    transition: 0.2s;
+    text-decoration: none;
+    color: inherit;
 }
 
 .calculator-card:hover {
@@ -204,38 +208,30 @@ a {
 }
 
 .card-icon {
-    width: 130px;
-    height: 100px;
     margin-bottom: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
 }
 
 .card-icon img {
-    display: block;
-    width: 100%;
-    height: 100%;
+    width: 88px;
+    height: 88px;
     object-fit: contain;
 }
 
 .calculator-card h3 {
     margin: 0 0 12px;
-    font-size: 21px;
+    font-size: 22px;
 }
 
 .calculator-card p {
-    min-height: 52px;
-    margin: 0 0 24px;
-    color: #758078;
-    font-size: 15px;
+    margin: 0 0 22px;
     line-height: 1.7;
+    color: #6f766f;
 }
 
 .card-link {
-    color: #26a269;
-    font-size: 14px;
+    margin-top: auto;
     font-weight: 700;
+    color: #19a35b;
 }
 
 
@@ -1049,7 +1045,7 @@ a {
     }
 
     .calculator-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .calculator-card {
@@ -1169,6 +1165,10 @@ a {
     .more-link {
         display: inline-block;
         margin-top: 12px;
+    }
+
+    .calculator-grid {
+        grid-template-columns: 1fr;
     }
 
      .calculator-head {

@@ -4,7 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self';">
+      content="
+        default-src 'self';
+        script-src 'self' https://www.googletagmanager.com https://static.cloudflareinsights.com;
+        style-src 'self';
+        img-src 'self' data:;
+        connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://cloudflareinsights.com;
+        font-src 'self';
+        object-src 'none';
+        base-uri 'self';
+        form-action 'self';
+      ">
     <meta name="description" content="대출 일부상환 후 월 납입액과 총이자가 왜 달라지는지, 상환방식에 따라 어떤 차이가 생기는지 쉽게 설명합니다.">
     <title>대출 일부상환 후 월 납입액은 왜 달라질까? | 셈결정</title>
     <link rel="icon" type="image/png" href="/images/favicon.png">

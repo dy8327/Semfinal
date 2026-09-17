@@ -4,7 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self';">
+      content="
+        default-src 'self';
+        script-src 'self' https://www.googletagmanager.com https://static.cloudflareinsights.com;
+        style-src 'self';
+        img-src 'self' data:;
+        connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://cloudflareinsights.com;
+        font-src 'self';
+        object-src 'none';
+        base-uri 'self';
+        form-action 'self';
+      ">
     <meta name="description" content="셈결정 이용 중 오류, 계산 결과 관련 문의, 개선 의견을 확인하는 문의 안내 페이지입니다.">
     <title>문의하기 | 셈결정</title>
     <link rel="icon" type="image/png" href="/images/favicon.png">

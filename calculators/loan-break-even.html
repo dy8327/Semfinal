@@ -4,7 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self';">
+      content="
+        default-src 'self';
+        script-src 'self' https://www.googletagmanager.com https://static.cloudflareinsights.com;
+        style-src 'self';
+        img-src 'self' data:;
+        connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://cloudflareinsights.com;
+        font-src 'self';
+        object-src 'none';
+        base-uri 'self';
+        form-action 'self';
+      ">
     <meta name="description" content="중도상환수수료를 내고 지금 대출을 갚는 것이 유리한지 계산합니다. 예상 이자 절감액과 수수료 회수기간을 비교해보세요.">
     <title>중도상환 손익 계산기 | 셈결정</title>
     <link rel="icon" type="image/png" href="/images/favicon.png">

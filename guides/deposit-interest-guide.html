@@ -4,7 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self';">
+      content="
+        default-src 'self';
+        script-src 'self' https://www.googletagmanager.com https://static.cloudflareinsights.com;
+        style-src 'self';
+        img-src 'self' data:;
+        connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://cloudflareinsights.com;
+        font-src 'self';
+        object-src 'none';
+        base-uri 'self';
+        form-action 'self';
+      ">
     <meta name="description" content="예금의 표시금리와 실제로 받는 이자가 다른 이유를 세금, 예치기간, 이자 계산 방식 기준으로 쉽게 설명합니다.">
     <title>예금 이자는 왜 표시금리만큼 받지 못할까? | 셈결정</title>
     <link rel="icon" type="image/png" href="/images/favicon.png">

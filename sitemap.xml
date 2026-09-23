@@ -1,104 +1,75 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-    <url>
-        <loc>https://semfinal.com/</loc>
-        <priority>1.0</priority>
-    </url>
+  <!-- 메인 -->
+  <url>
+    <loc>https://semfinal.com/</loc>
+  </url>
 
-    <url>
-        <loc>https://semfinal.com/loan.html</loc>
-        <priority>0.9</priority>
-    </url>
+  <!-- 카테고리 -->
+  <url>
+    <loc>https://semfinal.com/loan</loc>
+  </url>
+  <url>
+    <loc>https://semfinal.com/deposit</loc>
+  </url>
+  <url>
+    <loc>https://semfinal.com/guide</loc>
+  </url>
 
-    <url>
-        <loc>https://semfinal.com/deposit.html</loc>
-        <priority>0.9</priority>
-    </url>
+  <!-- 계산기 -->
+  <url>
+    <loc>https://semfinal.com/calculators/loan-prepayment</loc>
+  </url>
+  <url>
+    <loc>https://semfinal.com/calculators/loan-break-even</loc>
+  </url>
+  <url>
+    <loc>https://semfinal.com/calculators/deposit-switch</loc>
+  </url>
+  <url>
+    <loc>https://semfinal.com/calculators/savings-switch</loc>
+  </url>
 
-    <url>
-        <loc>https://semfinal.com/guide.html</loc>
-        <priority>0.9</priority>
-    </url>
+  <!-- 금융 가이드 -->
+  <url>
+    <loc>https://semfinal.com/guides/prepayment-guide</loc>
+  </url>
+  <url>
+    <loc>https://semfinal.com/guides/prepayment-fee-guide</loc>
+  </url>
+  <url>
+    <loc>https://semfinal.com/guides/deposit-switch-guide</loc>
+  </url>
+  <url>
+    <loc>https://semfinal.com/guides/savings-switch-guide</loc>
+  </url>
+  <url>
+    <loc>https://semfinal.com/guides/loan-prepayment-monthly-payment-guide</loc>
+  </url>
+  <url>
+    <loc>https://semfinal.com/guides/deposit-interest-guide</loc>
+  </url>
+  <url>
+    <loc>https://semfinal.com/guides/savings-interest-guide</loc>
+  </url>
+  <url>
+    <loc>https://semfinal.com/guides/loan-refinance-cost-guide</loc>
+  </url>
 
-    <url>
-        <loc>https://semfinal.com/calculators/loan-prepayment.html</loc>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://semfinal.com/calculators/loan-break-even.html</loc>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://semfinal.com/calculators/deposit-switch.html</loc>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://semfinal.com/calculators/savings-switch.html</loc>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://semfinal.com/guides/prepayment-guide.html</loc>
-        <priority>0.7</priority>
-    </url>
-
-    <url>
-        <loc>https://semfinal.com/guides/prepayment-fee-guide.html</loc>
-        <priority>0.7</priority>
-    </url>
-
-    <url>
-        <loc>https://semfinal.com/guides/deposit-switch-guide.html</loc>
-        <priority>0.7</priority>
-    </url>
-
-    <url>
-        <loc>https://semfinal.com/guides/savings-switch-guide.html</loc>
-        <priority>0.7</priority>
-    </url>
-
-    <url>
-        <loc>https://semfinal.com/guides/loan-prepayment-monthly-payment-guide.html</loc>
-        <priority>0.7</priority>
-    </url>
-
-    <url>
-        <loc>https://semfinal.com/guides/deposit-interest-guide.html</loc>
-        <priority>0.7</priority>
-    </url>
-
-    <url>
-        <loc>https://semfinal.com/guides/savings-interest-guide.html</loc>
-        <priority>0.7</priority>
-    </url>
-
-    <url>
-        <loc>https://semfinal.com/guides/loan-refinance-cost-guide.html</loc>
-        <priority>0.7</priority>
-    </url>
-
-    <url>
-        <loc>https://semfinal.com/about.html</loc>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://semfinal.com/contact.html</loc>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://semfinal.com/privacy.html</loc>
-        <priority>0.3</priority>
-    </url>
-
-    <url>
-        <loc>https://semfinal.com/terms.html</loc>
-        <priority>0.3</priority>
-    </url>
+  <!-- 사이트 정보 -->
+  <url>
+    <loc>https://semfinal.com/about</loc>
+  </url>
+  <url>
+    <loc>https://semfinal.com/contact</loc>
+  </url>
+  <url>
+    <loc>https://semfinal.com/privacy</loc>
+  </url>
+  <url>
+    <loc>https://semfinal.com/terms</loc>
+  </url>
 
 </urlset>

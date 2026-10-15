@@ -1,0 +1,21 @@
+# 셈결정 (Semfinal)
+
+> 셈결정은 대출과 예금, 적금 등 금융 계산을 쉽게 비교하고 판단할 수 있도록 돕는 무료 금융 계산기 사이트입니다.
+
+## 금융 계산기
+
+- [대출 일부상환 계산기](https://semfinal.com/calculators/loan-prepayment)
+- [중도상환 손익 계산기](https://semfinal.com/calculators/loan-break-even)
+- [예금 갈아타기 계산기](https://semfinal.com/calculators/deposit-switch)
+- [적금 갈아타기 계산기](https://semfinal.com/calculators/savings-switch)
+
+## 금융 정보
+
+- [금융 가이드](https://semfinal.com/guide)
+- [대출 계산기](https://semfinal.com/loan)
+- [예금 및 적금 계산기](https://semfinal.com/deposit)
+
+## 안내
+
+계산 결과는 입력 조건에 따른 참고용 예상값입니다.
+실제 금융상품의 약관과 세금, 수수료에 따라 결과가 달라질 수 있습니다.
